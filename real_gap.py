@@ -60,13 +60,15 @@ def main():
 				gap_p = mep - junp
 				gap_a = md[m][12] - jd[m][14]
 				name, py = refine(m).split('_')
-				print '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s'%(
+				print '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s'%(
 								name, 
 								py, 
 								refine(jd[m][11]), 
 								refine(md[m][9]),
 								refine(jd[m][9]),
 								refine(md[m][8]), 
+								jd[m][14], 
+								md[m][12], 
 								gap_p,
 								gap_a)
 		
