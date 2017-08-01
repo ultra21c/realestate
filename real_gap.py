@@ -60,7 +60,9 @@ def main():
 				gap_p = mep - junp
 				gap_a = md[m][12] - jd[m][14]
 				name, py = refine(m).split('_')
-				print '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s'%(
+				addr = md[m][0].split(' ')[3]
+				print '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s'%(
+								addr, 
 								name, 
 								py, 
 								refine(jd[m][11]), 
