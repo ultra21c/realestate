@@ -1,4 +1,17 @@
 # realestate
+## KB부동산 데이터 정재
+  * 두줄로 되어 있는 KB데이터를 한 라인으로 만들기
+  * sample
+  ```
+    "골든/
+    안양시 관양동"
+    "골든/
+    안양시 관양동"
+    "골든/
+    안양시 관양동"
+  ```
+    > python kb_aptname.py -f apt-manan-all.dat -j merge
+    
 ## 실거래데이터를 이용한 갭
   * 매매 실거래 데이터 다운로드 : 다운로드 받은 파일을 c&p하여 tab 구분자로 data 디렉토리에 위치.
   * 전세 실거래 데이터 다운로드 : 상동
@@ -10,4 +23,3 @@
   * kb_aptname.kb_newline_merge
 ## "/" 로 구분 되어 있는 전용/공급면적
   * kb_aptname.split_slash 
-
