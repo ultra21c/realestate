@@ -29,6 +29,7 @@ def callData(lname, lcode, period):
             apis.rent(f, lname, lcode, p)
             apis.trade(f, lname, lcode, p)
 
+
 if __name__ == '__main__':
     utils = Utils()
     lcodeViewer(utils)
