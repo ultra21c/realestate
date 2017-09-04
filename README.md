@@ -34,3 +34,8 @@
   * kb_aptname.kb_newline_merge
 ## "/" 로 구분 되어 있는 전용/공급면적
   * kb_aptname.split_slash 
+  
+## 아파트 실거래가 데이터 추출
+ * 아파트 실거래가데이터를 추출한다
+ * python 3.x기준이다.
+ > python real-estate-price.py
