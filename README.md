@@ -10,8 +10,8 @@
     "골든/
     안양시 관양동"
   ```
-    > python kb_aptname.py -f apt-manan-all.dat -j merge
-    * file은 ./data/하위에 있어야 한다.
+   > python kb_aptname.py -f apt-manan-all.dat -j merge
+   * file은 ./data/하위에 있어야 한다.
 
   * 슬래쉬로 구분되어 있는, 공급전용 면적을 나누기
   * sample
