@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python real_gap.py | sort -k10 -n
+python real_gap.py | sort -k11 -n

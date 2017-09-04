@@ -1,0 +1,10 @@
+# files ignore
+*.iml
+*.csv
+*.log
+*.dat
+# directories ignore
+data/
+log/
+.idea/
+target/

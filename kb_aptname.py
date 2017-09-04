@@ -15,7 +15,7 @@ def kb_newline_merge():
 	"공작(부영2차)/
 	안양시 관양동"
 	'''
-	with open('./data/apt-add-line2.dat') as f:
+	with open('./data/apt-manan-all.dat') as f:
 		start = False
 		end = True
 		empty = False
@@ -50,13 +50,13 @@ def kb_newline_merge():
 				print empty_buff
 
 def split_slash():
-	with open('./data/slash_split.dat') as f:
+	with open('./data/slash_manan-all.dat') as f:
 		for line in f.readlines():
 			row = line.strip()
 			size = row.split("/")
 			print "%s\t%s"%(size[0], size[1])
 		
 if __name__ == '__main__':
-	#kb_newline_merge()
-	split_slash()
+	kb_newline_merge()
+	#split_slash()
 	
